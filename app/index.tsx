@@ -176,20 +176,120 @@ const styles = StyleSheet.create({
         flexGrow: 1,
         backgroundColor: LIGHT_BG,
   },
-  header: { backgroundColor: RED, height: 335, paddingHorizontal: 26, paddingTop: 40, borderBottomLeftRadius: 60, borderBottomRightRadius: 60, zIndex: 1 },
-  headerTextBox: { marginTop: 40},
-  welcome: { fontSize: 40, fontWeight: "800", color: "#fff" },
-  subtitle: { fontSize: 22, color: "#fff", marginTop: -5, fontWeight: "500" },
-  hydrant: { width: 140, height: 260, resizeMode: "contain", position: "absolute", top: 140, right: 20, zIndex: 5 },
-  card: { backgroundColor: LIGHT_BG, borderTopLeftRadius: 50, borderTopRightRadius: 50, paddingHorizontal: 26, paddingTop: 100, zIndex: 3, flex: 1, marginTop: -80},
-  cardTitle: { fontSize: 28, color: ORANGE, fontWeight: "700", marginBottom: 30 },
-  input: { backgroundColor: "#fff", paddingHorizontal: 22, paddingVertical: 14, borderRadius: 30, fontSize: 16, marginBottom: 18 },
-  forgot: { color: ORANGE, fontSize: 13, marginBottom: 30 },
-  loginButton: { backgroundColor: RED, paddingVertical: 16, borderRadius: 30, alignItems: "center", marginBottom: 35 },
-  loginText: { color: "#fff", fontSize: 18, fontWeight: "600" },
-  separatorContainer: { flexDirection: "row", alignItems: "center", marginBottom: 15 },
-  line: { flex: 1, height: 1, backgroundColor: "#d4d4d4" },
-  separatorText: { marginHorizontal: 10, color: TEXT_GREY, fontSize: 14 },
-  noAccount: { textAlign: "center", fontSize: 14, color: TEXT_GREY, marginBottom: 5 },
-  createLink: { textAlign: "center", color: ORANGE, fontSize: 16, fontWeight: "600" },
+  header: {
+  backgroundColor: RED,
+  height: 335,
+  paddingHorizontal: 26,
+  paddingTop: 40,
+  borderBottomLeftRadius: 60,
+  borderBottomRightRadius: 60,
+  zIndex: 1
+},
+
+headerTextBox: {
+  marginTop: 40
+},
+
+welcome: {
+  fontSize: 40,
+  fontWeight: "800",
+  color: "#fff"
+},
+
+subtitle: {
+  fontSize: 22,
+  color: "#fff",
+  marginTop: -5,
+  fontWeight: "500"
+},
+
+hydrant: {
+  width: 140,
+  height: 260,
+  resizeMode: "contain",
+  position: "absolute",
+  top: 140,
+  right: 20,
+  zIndex: 5
+},
+
+card: {
+  backgroundColor: LIGHT_BG,
+  borderTopLeftRadius: 50,
+  borderTopRightRadius: 50,
+  paddingHorizontal: 26,
+  paddingTop: 100,
+  zIndex: 3,
+  flex: 1,
+  marginTop: -80
+},
+
+cardTitle: {
+  fontSize: 28,
+  color: ORANGE,
+  fontWeight: "700",
+  marginBottom: 30
+},
+
+input: {
+  backgroundColor: "#fff",
+  paddingHorizontal: 22,
+  paddingVertical: 14,
+  borderRadius: 30,
+  fontSize: 16,
+  marginBottom: 18
+},
+
+forgot: {
+  color: ORANGE,
+  fontSize: 13,
+  marginBottom: 30
+},
+
+loginButton: {
+  backgroundColor: RED,
+  paddingVertical: 16,
+  borderRadius: 30,
+  alignItems: "center",
+  marginBottom: 35
+},
+
+loginText: {
+  color: "#fff",
+  fontSize: 18,
+  fontWeight: "600"
+},
+
+separatorContainer: {
+  flexDirection: "row",
+  alignItems: "center",
+  marginBottom: 15
+},
+
+line: {
+  flex: 1,
+  height: 1,
+  backgroundColor: "#d4d4d4"
+},
+
+separatorText: {
+  marginHorizontal: 10,
+  color: TEXT_GREY,
+  fontSize: 14
+},
+
+noAccount: {
+  textAlign: "center",
+  fontSize: 14,
+  color: TEXT_GREY,
+  marginBottom: 5
+},
+
+createLink: {
+  textAlign: "center",
+  color: ORANGE,
+  fontSize: 16,
+  fontWeight: "600"
+},
+
 });

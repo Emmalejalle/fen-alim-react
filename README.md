@@ -63,4 +63,5 @@ Quintane Faustin
 ## Lancer le projet
 
 npm install
+
 npx expo start

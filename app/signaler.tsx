@@ -58,7 +58,7 @@ export default function SignalerScreen() {
       numero_pei: h._numero_pei,
       probleme: problem,
       commentaire: comment,
-      photos: photos, // plus tard tu enverras en base64
+      photos: photos, // à gerer plus tard 
       utilisateur: "mobile_user",
       date: new Date().toISOString(),
     };
